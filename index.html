@@ -2,68 +2,97 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Maison Pour — Le goût des bonnes choses</title>
-<meta name="description" content="Maison Pour — une sélection de fruits, légumes et produits choisis avec soin.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison Poor — Talensac</title>
+<meta name="description" content="Maison Poor — fruits frais, sélectionnés chaque jour au marché de Talensac à Nantes.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="index.html"><span>MAISON</span><strong>POUR</strong></a>
-  <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+<header class="header">
+  <a class="logo" href="#accueil" aria-label="Maison Poor Talensac">
+    <span class="logo-mark">♧</span>
+    <span class="logo-main">MAISON POOR</span>
+    <span class="logo-sub">TALENSAC</span>
+  </a>
   <nav>
-    <a href="index.html" class="active">Accueil</a>
-    <a href="histoire.html">Notre histoire</a>
-    <a href="fruits.html">Nos fruits</a>
-    <a href="selection.html">Notre sélection</a>
+    <a class="active" href="#accueil">Accueil</a>
+    <a href="#fruits">Nos fruits</a>
+    <a href="#paniers">Nos paniers</a>
     <a href="#livraison">Livraison</a>
     <a href="#cadeaux">Paniers cadeaux</a>
+    <a href="#histoire">Notre histoire</a>
     <a href="#contact">Contact</a>
   </nav>
+  <div class="header-icons"><span>⌕</span><span>♙</span><span>🛒</span></div>
 </header>
 
-<main>
+<main id="accueil">
 <section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">MAISON POUR · NANTES</p>
-    <h1>Le goût des<br><em>bonnes choses.</em></h1>
-    <p>Une sélection de fruits, légumes et produits choisis avec exigence, pensée pour retrouver chez soi le plaisir des beaux produits.</p>
-    <div class="actions">
-      <a class="button" href="selection.html">Découvrir notre sélection</a>
-      <a class="text-link" href="fruits.html">Voir nos fruits →</a>
+  <div class="hero-photo">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="fruit-mark">♧</div>
+      <h1>MAISON POOR</h1>
+      <div class="talensac">TALENSAC</div>
+      <div class="script">Le goût des bonnes choses <span>♡</span></div>
+      <p>Depuis près de 40 ans au marché de Talensac à Nantes, Maison Poor sélectionne chaque jour des fruits pour leur fraîcheur, leur goût et leur maturité.</p>
+      <div class="buttons">
+        <a href="#paniers" class="btn gold">🛒 COMMANDER MON PANIER</a>
+        <a href="#cadeaux" class="btn dark">♧ OFFRIR UN PANIER</a>
+      </div>
     </div>
-  </div>
-  <div class="hero-card"><div class="placeholder">MAISON<br>POUR</div></div>
-</section>
-
-<section class="intro">
-  <p class="eyebrow">NOTRE PHILOSOPHIE</p>
-  <h2>Du marché à votre table,<br><em>simplement.</em></h2>
-  <p>Maison Pour met l'accent sur le produit, la sélection et le plaisir. Une maison à taille humaine, inspirée par le marché de Talensac et l'envie de proposer de belles choses sans complication.</p>
-</section>
-
-<section class="feature">
-  <div class="feature-image"><span>LA SÉLECTION<br>DE LA SEMAINE</span></div>
-  <div class="feature-copy">
-    <p class="eyebrow">NOTRE SÉLECTION</p>
-    <h2>La sélection de la semaine</h2>
-    <p>Une sélection pensée pour la semaine, avec de beaux produits et l'essentiel pour se faire plaisir.</p>
-    <div class="price">35 €</div>
-    <a class="button" href="selection.html">Découvrir</a>
+    <div class="hero-note note-one">Des fruits<br>frais<br>chaque jour<br>au marché<br>de Talensac ♡</div>
+    <div class="hero-note note-two">Le goût<br>des bonnes<br>choses ... ♡</div>
   </div>
 </section>
 
-<section id="livraison" class="strip">
-  <div><p class="eyebrow">LIVRAISON</p><h2>Vos produits, jusqu'à vous.</h2></div>
-  <p>La livraison fera partie intégrante de l'expérience Maison Pour. Les modalités seront précisées dans la prochaine version.</p>
+<section class="section products" id="fruits">
+  <div class="section-head">
+    <div><span class="eyebrow">NOS FRUITS DE SAISON</span><h2>Les produits du moment</h2></div>
+    <a href="#" class="outline-btn">VOIR TOUS LES FRUITS →</a>
+  </div>
+  <div class="product-grid">
+    <article class="product mango"><div><h3>Les mangues</h3><p>L'EXOTISME À PORTÉE DE MAIN</p></div></article>
+    <article class="product passion"><div><h3>Les fruits de la passion</h3><p>UN VOYAGE DE SAVEURS</p></div></article>
+    <article class="product avocado"><div><h3>Les avocats</h3><p>ONCTUEUX ET SAVOUREUX</p></div></article>
+    <article class="product dates"><div><h3>Les dattes</h3><p>UNE DOUCEUR NATURELLE</p></div></article>
+  </div>
+</section>
+
+<section class="story" id="histoire">
+  <div class="story-photo"><span>PHOTO<br>DU MARCHÉ<br>DE TALENSAC</span></div>
+  <div class="story-copy">
+    <span class="eyebrow">UNE HISTOIRE DE FRUITS</span>
+    <h2>Maison Poor — Marché de Talensac, Nantes</h2>
+    <p>Depuis près de 40 ans, nous partageons la même passion : les fruits. Chaque jour, nous sélectionnons avec soin les meilleurs produits, en privilégiant la qualité, le goût et la saisonnalité.</p>
+    <div class="script dark-script">Du marché à votre table.</div>
+    <a class="btn dark" href="#">NOTRE HISTOIRE</a>
+  </div>
+  <aside class="story-quote"><div class="fruit-mark">♧</div><p>« Des fruits frais,<br>des rencontres vraies,<br>une même exigence<br>depuis 40 ans. »</p></aside>
+</section>
+
+<section class="four-cols" id="paniers">
+  <div><div class="icon">⌂</div><h3>MAISON POOR CHEZ VOUS</h3><p>Commandez. Nous préparons. Vous recevez.<br>Une livraison pensée pour préserver la fraîcheur de vos fruits.</p><a href="#livraison">COMMENT ÇA MARCHE ?</a></div>
+  <div><div class="icon">♧</div><h3>DES PANIERS POUR TOUS</h3><p>Panier de la semaine, paniers cadeaux ou compositions sur mesure. Il y a toujours une bonne occasion pour faire plaisir.</p><a href="#cadeaux">VOIR NOS PANIERS</a></div>
+  <div><div class="icon">⌖</div><h3>NOUS TROUVER</h3><p>Marché de Talensac — Nantes<br>Venez nous rencontrer directement au marché et découvrez nos produits de saison.</p><a href="#contact">VOIR SUR LA CARTE</a></div>
+  <div><div class="icon">✦</div><h3>NOTRE ENGAGEMENT</h3><p>Des fruits de qualité, sélectionnés avec soin. Le respect des saisons, des producteurs et surtout... du goût.</p><a href="#histoire">EN SAVOIR PLUS</a></div>
+</section>
+
+<section class="delivery" id="livraison">
+  <div><span class="eyebrow">LIVRAISON</span><h2>Du marché à votre porte.</h2><p>La prochaine étape de Maison Poor : une livraison locale simple, soignée et pensée autour de la fraîcheur.</p></div>
+  <div class="delivery-card"><strong>BIENTÔT</strong><span>Livraison Nantes & alentours</span></div>
+</section>
+
+<section class="gift" id="cadeaux">
+  <div><span class="eyebrow">POUR FAIRE PLAISIR</span><h2>Les paniers cadeaux</h2><p>Une composition généreuse, élégante et personnalisable pour les petites et grandes occasions.</p><a class="btn gold" href="#">DÉCOUVRIR LES PANIERS</a></div>
 </section>
 </main>
 
 <footer id="contact">
-  <div class="brand footer-brand"><span>MAISON</span><strong>POUR</strong></div>
-  <p>Le goût des bonnes choses.</p>
-  <small>© Maison Pour — V1</small>
+  <div class="footer-logo"><span>♧</span><strong>MAISON POOR</strong><small>TALENSAC</small></div>
+  <div class="social">◎ &nbsp; ●</div>
+  <div class="links"><a href="#">Mentions légales</a><a href="#">CGV</a><a href="#">Contact</a></div>
+  <div class="footer-script">Le goût<br>des bonnes choses ♡</div>
 </footer>
-<script src="script.js"></script>
 </body>
 </html>
