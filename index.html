@@ -1,62 +1,144 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Maison Poor — Talensac</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Maison Poor Talensac — fruits frais, sélectionnés avec passion au marché de Talensac à Nantes.">
+  <title>Maison Poor — Talensac | Fruits frais et de saison</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-  <a href="#accueil" class="brand"><img src="assets/logo.jpg" alt="Maison Poor Talensac"></a>
-  <nav>
-    <a class="active" href="#accueil">ACCUEIL</a><a href="#fruits">NOS FRUITS</a><a href="#paniers">NOS PANIERS</a>
-    <a href="#livraison">LIVRAISON</a><a href="#cadeaux">PANIERS CADEAUX</a><a href="#histoire">NOTRE HISTOIRE</a><a href="#contact">CONTACT</a>
+<header class="site-header">
+  <a class="brand" href="#accueil" aria-label="Maison Poor Talensac">
+    <div class="brand-mark">♧</div>
+    <div class="brand-name">MAISON POOR</div>
+    <div class="brand-sub">TALENSAC</div>
+  </a>
+
+  <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+  <nav class="nav">
+    <a class="active" href="#accueil">ACCUEIL</a>
+    <a href="#fruits">NOS FRUITS</a>
+    <a href="#paniers">NOS PANIERS</a>
+    <a href="#livraison">LIVRAISON</a>
+    <a href="#cadeaux">PANIERS CADEAUX</a>
+    <a href="#histoire">NOTRE HISTOIRE</a>
+    <a href="#contact">CONTACT</a>
   </nav>
-  <div class="icons">⌕　♙　🛒</div>
+  <div class="header-icons" aria-hidden="true"><span>⌕</span><span>♙</span><span>🛒</span></div>
 </header>
 
-<section class="hero" id="accueil">
-  <div class="hero-left">
-    <img src="assets/logo.jpg" class="hero-logo" alt="Maison Poor Talensac">
-    <div class="tagline">Le goût des bonnes choses <span>♡</span></div>
-    <p>Depuis près de 40 ans au marché de Talensac à Nantes, Maison Poor sélectionne chaque jour des fruits pour leur fraîcheur, leur goût et leur maturité.</p>
-    <div class="cta"><a class="gold" href="#paniers">🛒　COMMANDER MON PANIER</a><a href="#cadeaux">♧　OFFRIR UN PANIER</a></div>
-  </div>
-  <div class="hero-image">
-    <img src="assets/hero-market.jpg" alt="Étal de fruits au marché de Talensac">
-    <div class="scribble top">Des fruits<br>frais<br>chaque jour<br>au marché<br>de Talensac ♡</div>
-    <div class="scribble bottom">Le goût<br>des bonnes<br>choses ... ♡</div>
-  </div>
-</section>
+<main id="accueil">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">LE MARCHÉ DE TALENSAC</p>
+      <h1>Nos fruits<br><span>frais et de saison</span></h1>
+      <p class="lead">Chez Maison Poor, chaque jour nous sélectionnons avec soin les plus beaux fruits du marché de Talensac, pour vous garantir fraîcheur, goût et qualité.</p>
+      <p class="script">Des fruits d’exception,<br>toute l’année ! ♡</p>
+      <a class="btn gold" href="#fruits">DÉCOUVRIR NOS FRUITS <b>→</b></a>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/figues.jpg" alt="Figues fraîches Maison Poor">
+      <div class="hero-overlay"></div>
+      <div class="chalk">Des fruits<br>frais<br>toute l’année !<br><span>♡</span></div>
+    </div>
+  </section>
 
-<section class="season" id="fruits">
-  <div class="heading"><div><span>NOS FRUITS DE SAISON</span><h2>Les produits du moment</h2></div><a href="#">VOIR TOUS LES FRUITS →</a></div>
-  <div class="products">
-    <article><img src="assets/mango.jpg"><div><b>Les mangues</b><small>L'EXOTISME À PORTÉE DE MAIN</small></div></article>
-    <article><img src="assets/passion.jpg"><div><b>Les fruits de la passion</b><small>UN VOYAGE DE SAVEURS</small></div></article>
-    <article><img src="assets/avocado.jpg"><div><b>Les avocats</b><small>ONCTUEUX ET SAVOUREUX</small></div></article>
-    <article><img src="assets/dates.jpg"><div><b>Les dattes</b><small>UNE DOUCEUR NATURELLE</small></div></article>
-  </div>
-</section>
+  <section class="season-strip">
+    <div><b>⌁</b><span><strong>Printemps</strong><small>Fruits nouveaux<br>et saveurs douces</small></span></div>
+    <div><b>☼</b><span><strong>Été</strong><small>Des fruits gorgés<br>de soleil</small></span></div>
+    <div><b>⌁</b><span><strong>Automne</strong><small>Des couleurs<br>généreuses</small></span></div>
+    <div><b>❄</b><span><strong>Hiver</strong><small>Des saveurs authentiques</small></span></div>
+    <div><b>☆</b><span><strong>Toute l’année</strong><small>Une sélection<br>d’exception</small></span></div>
+  </section>
 
-<section class="story" id="histoire">
-  <img src="assets/story.jpg" alt="Équipe Maison Poor au marché de Talensac">
-  <div class="story-text"><span>UNE HISTOIRE DE FRUITS</span><h2>Maison Poor — Marché de Talensac, Nantes</h2>
-  <p>Depuis près de 40 ans, nous partageons la même passion : les fruits. Chaque jour, nous sélectionnons avec soin les meilleurs produits, en privilégiant la qualité, le goût et la saisonnalité.</p>
-  <em>Du marché à votre table.</em><br><a class="black" href="#">NOTRE HISTOIRE</a></div>
-  <div class="quote"><strong>♧</strong><p>« Des fruits frais,<br>des rencontres vraies,<br>une même exigence<br>depuis 40 ans. »</p></div>
-</section>
+  <section id="fruits" class="section dark">
+    <div class="section-head">
+      <div><h2>Les fruits du moment</h2><div class="gold-line"></div></div>
+      <p class="script">Le goût des<br>bonnes choses ♡</p>
+      <a class="btn outline" href="#catalogue">VOIR TOUS LES FRUITS →</a>
+    </div>
+    <div class="fruit-grid">
+      <article class="fruit-card"><img src="assets/figues.jpg" alt="Figues"><div><h3>Figues</h3><p>Fondantes et parfumées</p></div></article>
+      <article class="fruit-card"><img src="assets/fruits-passion.jpg" alt="Fruits de la passion"><div><h3>Fruits de la passion</h3><p>Un voyage de saveurs</p></div></article>
+      <article class="fruit-card"><img src="assets/mangues.jpg" alt="Mangues"><div><h3>Mangues</h3><p>Exotiques et juteuses</p></div></article>
+      <article class="fruit-card"><img src="assets/melons-philibon.png" alt="Melons Philibon"><div><h3>Melons Philibon</h3><p>Fraîcheur et authenticité</p></div></article>
+      <article class="fruit-card"><img src="assets/noix.jpg" alt="Noix"><div><h3>Noix</h3><p>Le goût du terroir</p></div></article>
+      <article class="fruit-card"><img src="assets/fruits-passion.jpg" alt="Sélection de fruits"><div><h3>Sélection Maison Poor</h3><p>Les meilleurs arrivages</p></div></article>
+      <article class="fruit-card"><img src="assets/mangues.jpg" alt="Fruits exotiques"><div><h3>Fruits exotiques</h3><p>Des découvertes toute l’année</p></div></article>
+      <article class="fruit-card"><img src="assets/figues.jpg" alt="Fruits frais"><div><h3>Fruits frais</h3><p>Sélectionnés avec passion</p></div></article>
+      <article class="fruit-card"><img src="assets/noix.jpg" alt="Fruits du terroir"><div><h3>Fruits du terroir</h3><p>Qualité et authenticité</p></div></article>
+      <article class="fruit-card basket-card"><img src="assets/melons-philibon.png" alt="Panier de fruits"><div><h3>Paniers de fruits</h3><p>Pour toutes les occasions</p></div></article>
+    </div>
+  </section>
 
-<section class="four" id="paniers">
-  <div><i>♧</i><h3>MAISON POOR CHEZ VOUS</h3><p>Commandez. Nous préparons. Vous recevez.<br>Une livraison pensée pour préserver la fraîcheur de vos fruits.</p><a href="#livraison">COMMENT ÇA MARCHE ?</a></div>
-  <div><i>♧</i><h3>DES PANIERS POUR TOUS</h3><p>Panier de la semaine, paniers cadeaux ou compositions sur mesure. Il y a toujours une bonne occasion pour faire plaisir.</p><a href="#cadeaux">VOIR NOS PANIERS</a></div>
-  <div><i>⌖</i><h3>NOUS TROUVER</h3><p>Marché de Talensac — Nantes<br>Venez nous rencontrer directement au marché et découvrez nos produits de saison.</p><a href="#contact">VOIR SUR LA CARTE</a></div>
-  <div><i>◈</i><h3>NOTRE ENGAGEMENT</h3><p>Des fruits de qualité, sélectionnés avec soin. Le respect des saisons, des producteurs et surtout... du goût.</p><a href="#histoire">EN SAVOIR PLUS</a></div>
-</section>
+  <section id="histoire" class="story">
+    <div class="story-copy">
+      <p class="eyebrow">UNE HISTOIRE DE FRUITS</p>
+      <h2>Maison Poor — Marché de Talensac, Nantes</h2>
+      <p>Depuis près de 40 ans, nous partageons la même passion : les fruits. Chaque jour, nous sélectionnons avec soin les meilleurs produits, en privilégiant la qualité, le goût et la saisonnalité.</p>
+      <p class="script">Du marché à votre table.</p>
+      <a class="btn dark-btn" href="#contact">NOTRE HISTOIRE →</a>
+    </div>
+    <div class="story-photo"><img src="assets/melons-philibon.png" alt="Fruits frais au marché"></div>
+  </section>
 
-<section class="simple" id="livraison"><span>LIVRAISON</span><h2>Du marché à votre table.</h2><p>Une livraison locale pensée autour de la fraîcheur et du soin.</p></section>
-<section class="simple" id="cadeaux"><span>PANIERS CADEAUX</span><h2>Faire plaisir avec Maison Poor.</h2><p>Des compositions élégantes et généreuses pour toutes les occasions.</p></section>
+  <section class="services">
+    <article><span>🚚</span><h3>LIVRAISON À DOMICILE</h3><p>Sur Nantes et alentours.<br>Du marché à chez vous,<br>en toute fraîcheur.</p><a href="#livraison">VOIR LES ZONES →</a></article>
+    <article><span>🧺</span><h3>NOS PANIERS</h3><p>Des paniers pour toutes les envies.<br>Fruits de saison,<br>compositions sur mesure.</p><a href="#paniers">DÉCOUVRIR NOS PANIERS →</a></article>
+    <article><span>✦</span><h3>DES FRUITS DE QUALITÉ</h3><p>Sélectionnés chaque jour<br>au marché de Talensac.<br>Le goût avant tout.</p><a href="#fruits">NOS ENGAGEMENTS →</a></article>
+    <article id="cadeaux"><span>🎁</span><h3>PANIERS CADEAUX</h3><p>Anniversaire, remerciement,<br>fête des mères...<br>Offrez le goût des bonnes choses !</p><a href="#contact">VOIR LES PANIERS CADEAUX →</a></article>
+  </section>
 
-<footer id="contact"><img src="assets/logo.jpg" alt="Maison Poor"><div>◎　●　　|　 Mentions légales　 |　 CGV　 |　 Contact</div><em>Le goût<br>des bonnes choses ♡</em></footer>
-</body></html>
+  <section id="paniers" class="selection">
+    <div class="selection-copy">
+      <p class="eyebrow">NOTRE SÉLECTION</p>
+      <h2>Le plaisir des bons fruits,<br><span>simplement.</span></h2>
+      <p>Une sélection composée avec les meilleurs fruits du moment, directement choisis au marché de Talensac.</p>
+      <a class="btn gold" href="#contact">COMMANDER MON PANIER</a>
+    </div>
+    <div class="selection-photo"><img src="assets/fruits-passion.jpg" alt="Sélection de fruits"></div>
+  </section>
+
+  <section id="livraison" class="delivery">
+    <div>
+      <p class="eyebrow">MAISON POOR CHEZ VOUS</p>
+      <h2>Du marché de Talensac<br><span>à votre table.</span></h2>
+      <p>Nous livrons une sélection de fruits frais et de saison sur Nantes et les communes alentours.</p>
+    </div>
+    <div class="delivery-box">
+      <h3>Nos zones de livraison</h3>
+      <p><b>Zone 1</b> — Nantes centre et proche périphérie</p>
+      <p><b>Zone 2</b> — Rezé, Saint-Sébastien, Saint-Herblain, Orvault...</p>
+      <p><b>Zone 3</b> — Carquefou, Vertou, La Chapelle-sur-Erdre, Thouaré...</p>
+    </div>
+  </section>
+
+  <section id="catalogue" class="cta">
+    <p class="script">Des fruits frais,<br>des émotions,<br>à partager ! ♡</p>
+    <h2>Une envie particulière ?</h2>
+    <p>Notre équipe compose votre sélection selon la saison, vos envies et votre budget.</p>
+    <a class="btn gold" href="#contact">NOUS CONTACTER</a>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="footer-brand">MAISON POOR <span>TALENSAC</span></div>
+  <div class="social">◎ &nbsp; ●</div>
+  <div class="footer-links"><a href="#">Mentions légales</a><a href="#">CGV</a><a href="#">Contact</a></div>
+  <div class="footer-slogan">Le goût<br>des bonnes choses <span>♡</span></div>
+</footer>
+
+<script>
+  document.querySelector('.menu-toggle').addEventListener('click', () => {
+    document.querySelector('.nav').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav a').forEach(a => a.addEventListener('click', () => {
+    document.querySelector('.nav').classList.remove('open');
+  }));
+</script>
+</body>
+</html>
